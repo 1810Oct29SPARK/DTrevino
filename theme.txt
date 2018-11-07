@@ -5,6 +5,8 @@ Personalized health page
  2. Where do you want to get physically
  3. Diet Options
  4. Workout Options
- 5. Personalized Diet w/info
+ 5. Personalized Diet/Supplument plan
  6. Personalized workout/cardio plan
  7. Resource guide
+
+

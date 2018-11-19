@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Nutritional Information Search</title>
+
+
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+    <link rel="stylesheet" href="css/styleNutri.css">
+    
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <h1>Nutrition Information</h1>
+        <input type="text" id="searchItem" placeholder="cooked rice" autofocus>
+        <button id="fetch" type="submit">Check</button>
+
+        <table id="results">
+                <div id="dietResults"></div>
+        </table>
+
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="js/scriptNutri.js"></script>
+    <footer class="main-footer active-element"><span class="copyright">Website by Danny Trevino</span></footer>
+  </body>
+</html>

@@ -1,0 +1,198 @@
+body{
+   
+    font-family: 'Helvetica', Geneva, Verdana, Arial, sans-serif;
+    font-size: 15px; 
+}
+
+
+header{
+
+    font-family: 'Helvetica', Geneva, Verdana, Arial, sans-serif;
+    font-size: 20px; 
+    padding: 0px;
+    text-align: center;  
+    margin: 0px;   
+}
+
+/*
+
+nav{
+    font-size: 10px; 
+    color: rgb(201, 197, 197); 
+    margin: 0px; 
+
+    background-color: rgba(68, 80, 94, 0.637); 
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(99, 116, 136, 0.705); 
+}
+
+
+header > h1 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center; 
+}
+
+*/
+
+aside{
+    width:35%;
+    margin: 10;
+    background:rgb(30, 30, 37);
+    
+    box-sizing: border-box;
+
+    border-radius:20px; 
+
+    float: right; 
+    
+}
+
+
+/* Buttons styles start */
+button {
+    border-radius: 30px; 
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 5px;
+    text-decoration: none;
+    background-image: linear-gradient(120deg, #DA4453 0%, #89216b 100%);
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+    width: 180px; 
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0);
+}
+
+button:hover,
+button:focus {
+    background-image: linear-gradient(120deg, rgb(195, 97, 107) 0%, #ad428f 100%);
+}
+
+button:focus {
+    outline: none;
+    outline-offset: -4px;
+    background: #ed6b00;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+/* Button styles end */
+
+
+
+
+
+
+table{
+    width: 100%; 
+    border-radius: 5px; 
+    color: black; 
+}
+
+
+
+.textdiv{
+    padding: 20px;
+
+    text-align: center; 
+    
+   
+    
+}
+
+td{
+    padding: 10px; 
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fffefe85;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+
+    width: 60%; /* Could be more or less, depending on screen size */
+    border-radius: 20px; 
+}
+
+/* The Close Button */
+.close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0; 
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}

@@ -6,6 +6,8 @@
     color: #ccc;
 }
 
+
+
 body{
     
 
@@ -88,7 +90,6 @@ body{
     margin-bottom: 1rem;
 }
 
-/*** Just getting silly now ***************************/
 .main-footer span{
                color: #ccc;
      transition-delay: 150ms;
@@ -191,7 +192,7 @@ body{
 }
 
 
-/*** Just getting silly now ***************************/
+
 .wrapper.active p{
      color: rgb(50, 101, 134);
                transition-delay: 150ms;

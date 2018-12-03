@@ -8,10 +8,6 @@ public class MinimumMutations {
 		
 		ArrayList<String> arr = new ArrayList<String>(); 
 		
-		
-		
-		System.out.println(text);
-		
 		String string = "start: \"AACCGGTT\"\r\n" + 
 				"end:   \"AAACGGTA\"\r\n" + 
 				"bank: [\"AACCGGTA\" \"AACCGCTA\" \"AAACGGTA\"]";

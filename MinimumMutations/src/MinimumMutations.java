@@ -8,10 +8,13 @@ public class MinimumMutations {
 		
 		ArrayList<String> arr = new ArrayList<String>(); 
 		
+<<<<<<< HEAD:MinimumMutations/src/MinimumMutations.java
 		text = new String(Files.readAllBytes(Paths.get("week1-code-challenge.txt")));
 		
 		System.out.println(text);
 		
+=======
+>>>>>>> d9850083033f82615b2102529b8d772d4e6b0d64:MinimumMutations/MinimumMutations.java
 		String string = "start: \"AACCGGTT\"\r\n" + 
 				"end:   \"AAACGGTA\"\r\n" + 
 				"bank: [\"AACCGGTA\" \"AACCGCTA\" \"AAACGGTA\"]";

@@ -1,4 +1,4 @@
-package com.revature.vacation;
+
 
 import java.util.ArrayList;
 
@@ -8,7 +8,7 @@ public class MinimumMutations {
 		
 		ArrayList<String> arr = new ArrayList<String>(); 
 		
-		
+		text = new String(Files.readAllBytes(Paths.get("week1-code-challenge.txt")));
 		
 		System.out.println(text);
 		

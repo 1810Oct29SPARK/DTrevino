@@ -1,5 +1,6 @@
 package com.revature.beans;
 
+// User class, private so you have to use getters and setters
 public class User {
 	
 	private int id;

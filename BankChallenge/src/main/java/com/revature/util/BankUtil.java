@@ -7,6 +7,7 @@ import com.revature.beans.Account;
 import com.revature.dao.AccountDAO;
 import com.revature.dao.UserDAO;
 
+// Bank contains users and accounts
 public class BankUtil {
 	
 	//include DAOs as instance variables 

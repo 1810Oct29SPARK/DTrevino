@@ -133,8 +133,7 @@ public class AccountDAOImpl implements AccountDAO {
 			}
 		}
 		
-		return -1.0;
-		
+		return -1.0;	
 	}
 
 	@Override
@@ -154,7 +153,6 @@ public class AccountDAOImpl implements AccountDAO {
 		else {
 			return 0.0;
 		}
-		
 	}
 
 }

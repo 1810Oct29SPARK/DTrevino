@@ -90,7 +90,6 @@ public class UserDAOImpl implements UserDAO {
 		pstmt.setString(2, lastName);
 		
 		return pstmt.executeUpdate();
-		
 	}
 
 	@Override

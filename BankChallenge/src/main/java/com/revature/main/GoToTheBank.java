@@ -26,6 +26,7 @@ public class GoToTheBank {
 		}
 		catch (SQLException | IOException e) {
 			e.printStackTrace();
+			
 		}
 
 		UserDAO ud = new UserDAOImpl(conn);
